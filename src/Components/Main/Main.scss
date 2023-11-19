@@ -1,0 +1,18 @@
+.container__main {
+    background-color: rgb(241, 232, 192);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__btn {
+    color: white;
+    background-color: green;
+    height: 30px;
+}
+
+.container__main__btn {
+    display: flex;
+
+}
