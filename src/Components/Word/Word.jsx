@@ -16,8 +16,8 @@ export default function Word(props) {
         <div className="container__word">
             <h1>Word</h1>
             <p>[trancrition]</p>
-            <button onClick={changeWord}>Проверить</button>
-            <p className={'change__word' === true ? 'Перевод' : null} ></p>
+            <button className='word__btn' onClick={changeWord}>Проверить</button>
+            {word === true ? 'word__btn' : 'Перевод'}
 
 
         </div >
