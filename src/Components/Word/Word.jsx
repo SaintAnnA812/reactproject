@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../Word/Word.scss'
+import '../../style/Word.scss'
 
 
 export default function Word(props) {

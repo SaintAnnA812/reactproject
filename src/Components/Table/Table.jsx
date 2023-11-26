@@ -1,4 +1,4 @@
-import '../Table/Table.scss'
+import '../../style/Table.scss'
 import Word from '../Word/Word'
 
 export default function Table() {
